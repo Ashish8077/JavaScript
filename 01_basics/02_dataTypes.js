@@ -10,10 +10,12 @@ let age = 24;
 let isLoggedIn = true ;
 
 //undefined = > when the variable is declared  but not initialize yet 
-let job
+let job;
 
 //Null   => intentional absence of value 
-let compony = null 
+let company = null ;
+
+
 
 //Object => store value(Properties) in key value pair 
 let person = {
@@ -22,11 +24,19 @@ let person = {
     age:50, 
     eyeColor:"blue"
 };
-
-//Bigint => when you want to store number which cannot be store in Number data than you used BigINt datatype
-console.log(Number.MAX_SAFE_INTEGER)
-let x = 1234567890123456789012345n;
-let y = BigInt(1234567890123456789012345)
+console.log(person);
 
 //symbol
 
+//Bigint => when you want to store number which cannot be store in Number data than you used BigINt datatype
+console.log(Number.MAX_SAFE_INTEGER);
+let x = 1234567890123456789012345n;
+let y = BigInt(1234567890123456789012345);
+
+console.table([firstName, age, isLoggedIn, job, company, x, y]);
+
+
+//=> You can use the typeof operator to find the data type of a JavaScript variable.
+console.table([typeof(age), typeof(firstName), typeof(isLoggedIn), typeof(job), typeof(company), typeof(person), typeof(x)]);
+
+console.log(typeof(null)) //=>return object which is bug in javascript 
