@@ -1,7 +1,17 @@
+// ******************** Variables in javascript ********************
+
+// JavaScript Variables can be declared in 4 ways:
+
+//1.Declaring variable using var keyword
 var firstName = "ashish";
+
+//2.Declaring variable using let keyword
 let lastName = "pawar";
 
+//3.Declaring varible without using keyword Automatically
 email = "ashishpawar9833@gmail.com";
+
+//Declaring vaiable using const keyword
 const accountNo = "374800344";
 
 //Declaring variable not initializing value 
@@ -12,7 +22,8 @@ let dob
   =>you cannot redeclare constant  and cannot assing any value once the variable is initialize
   => you cannot simply use constant variable after declaration you need to initialize value to variable 
 */
-// accountNo = "4598340033"
+// accountNo = "4598340033" 
+
 
 
 var firstName = "Rahul"
@@ -23,5 +34,6 @@ lastName = "Panwar"  // let cannot be redeclare  but can reassing it's value
 
 */
 
-console.table([firstName , lastName ,email , accountNo ,dob])
+console.log(firstName , lastName ,email , accountNo ,dob) // Prints Rahul Panwar ashishpawar9833@gmail.com 374800344 undefined 
+
 
