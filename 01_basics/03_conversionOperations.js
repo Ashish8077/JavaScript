@@ -1,11 +1,10 @@
-// Online Javascript Editor for free
-// Write, Edit and Run your Javascript code using JS Online Compiler
+
 
 let stringValue = "33";
 let strvalue2 = "33abc";
 let isLoggedIn = true
 
-// Converting String DataType To Nubmber 
+// Converting String DataType to Nubmber 
 let numberValue = Number(stringValue);
 // console.log(typeof numberValue);
 
@@ -29,11 +28,11 @@ console.log(str3)
 
 console.log("1" + 2+44+5+8) 
 //output => 124458
-//number written after string automatically convert into string
+//number written after the string is automatically converted into a string.
 
 console.log(1+2+"4")
 //output => 34
-//number written before string automatically convert into number 
+//number written before the string is automatically converted into a number.
 
 // ******************* Expressions - Increment operator ********************
 // postfix

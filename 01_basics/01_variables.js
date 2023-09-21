@@ -1,6 +1,6 @@
 // ******************** Variables in javascript ********************
 
-//Variabels are basically name given to the memory location 
+//Variables are basically names given to the memory location.
 
 // JavaScript Variables can be declared in 4 ways:
 
@@ -10,30 +10,30 @@ var firstName = "ashish";
 //2.Declaring variable using let keyword
 let lastName = "pawar";
 
-//3.Declaring varible without using keyword Automatically
+//3.Declaring varible without using keyword (Automatically)
 email = "ashishpawar9833@gmail.com";
 
-//Declaring vaiable using const keyword
+//Declaring variable using const keyword
 const accountNo = "374800344";
 
-//Declaring variable not initializing value 
+//Declaring a variable without initializing it
 let dob 
 
-//initializing a variables means set up a value to the variable
+//Initializing a variable means setting up a value for the variable.
 
 /*
-  =>you cannot redeclare constant  and cannot assing any value once the variable is initialize
-  => you cannot simply use constant variable after declaration you need to initialize value to variable 
+  =>You cannot re-declare a constant and cannot assign any value once the variable is initialized.
+  =>You cannot simply use a constant variable after a declaration; you need to initialize the value to a variable.
 */
 // accountNo = "4598340033" 
 
 
 
 var firstName = "Rahul"
-lastName = "Panwar"  // let cannot be redeclare  but can reassing it's value 
+lastName = "Panwar"  // Let cannot be redeclared but can be reassigned its value. 
 /*
-  =>You can change the value of  variable declare using let and var keyword 
-  =>only difference that var has global scope and let has block scope  when declare inside a particular block of code
+  =>You can change the value of a variable by using the let and var keywords.
+  =>The only difference is that var has global scope and let has block scope when declared inside a particular block of code.
 
 */
 
