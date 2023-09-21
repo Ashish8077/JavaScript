@@ -2,7 +2,7 @@
 // console.log("02">1); //print true 
 
 /*
-javascript automatically convert strig value to number 
+javascript automatically convert string value to number 
 "2" converted to 2
 */
 
