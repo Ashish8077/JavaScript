@@ -1,5 +1,7 @@
 // ******************** Variables in javascript ********************
 
+//Variabels are basically name given to the memory location 
+
 // JavaScript Variables can be declared in 4 ways:
 
 //1.Declaring variable using var keyword
@@ -17,6 +19,7 @@ const accountNo = "374800344";
 //Declaring variable not initializing value 
 let dob 
 
+//initializing a variables means set up a value to the variable
 
 /*
   =>you cannot redeclare constant  and cannot assing any value once the variable is initialize
