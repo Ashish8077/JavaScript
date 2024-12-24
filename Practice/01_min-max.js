@@ -23,29 +23,29 @@
 
 // Reduce method 
 
-//   function findMinMax(arr) {
-//     if(arr.length === 0){
-//         return {max:null, min:null}
-//     }
+  function findMinMax(arr) {
+    if(arr.length === 0){
+        return {max:null, min:null}
+    }
 
-//     return arr.reduce((acc, curr)=>{
-//        if(curr > acc.max){
-//         acc.max = curr
-//        }
-//        if(curr < acc.min){
-//         acc.min = curr
-//        }
-//        return acc
-//     }, {max:arr[0], min:arr[0]})
-//   }
-//   const arr = [500, 10, -1, 30000, 30, 50, 1000];
+    return arr.reduce((acc, curr)=>{
+       if(curr > acc.max){
+        acc.max = curr
+       }
+       if(curr < acc.min){
+        acc.min = curr
+       }
+       return acc
+    }, {max:arr[0], min:arr[0]})
+  }
+  const arr = [500, 10, -1, 30000, 30, 50, 1000];
 
-//   console.log(findMinMax(arr))
+  console.log(findMinMax(arr))
   
 
 //apply method
 
-const arr = [500, 10, -1, 30000, 30, 50, 1000]
+const arr1 = [500, 10, -1, 30000, 30, 50, 1000]
 
 console.log(Math.max.apply(null, arr))
 console.log(Math.min.apply(null, arr))
